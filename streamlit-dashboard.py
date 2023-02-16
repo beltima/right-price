@@ -7,7 +7,7 @@ import json
 import requests
 from geopy.geocoders import Nominatim
 geolocator = Nominatim(user_agent="right-price")
-from tool_function import *
+from my_package.tool_function import *
 
 
 # Load the model
