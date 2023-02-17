@@ -76,7 +76,6 @@ feats = ['year',
     #enter_num_rooms
 header = st.container()
 dashboard = st.container()
-risk = st.container()
 
 #Caching the model for faster loading
 
@@ -313,6 +312,7 @@ if st.button('Predict Price'):
 
     st.success(f'The predicted value for your appartment is : {round(prediction):,} EUR'.replace(',', ' '))
 
+risk = st.container()
 with risk: 
     st.subheader('The risks')
     dir = "..\\.."
