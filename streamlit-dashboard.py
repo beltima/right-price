@@ -12,6 +12,7 @@ import xgboost as xgb
 import sklearn
 from pickle import load
 import openpyxl 
+import xlrd 
 
 # Load the model
 model = xgb.XGBRegressor()
