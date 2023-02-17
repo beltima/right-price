@@ -13,6 +13,7 @@ import sklearn
 from pickle import load
 import openpyxl 
 import xlrd 
+import streamlit.components.v1 as components
 
 # Load the model
 model = xgb.XGBRegressor()
@@ -75,6 +76,7 @@ feats = ['year',
     #enter_num_rooms
 header = st.container()
 dashboard = st.container()
+risk = st.container()
 
 #Caching the model for faster loading
 
@@ -310,6 +312,18 @@ if st.button('Predict Price'):
         print(f'time: {stop_time - start_time}')
 
     st.success(f'The predicted value for your appartment is : {round(prediction):,} EUR'.replace(',', ' '))
+
+with risk: 
+    st.subheader('The risks')
+    dir = "..\\.."
+    name_file = "postcode_map.html"
+    pop_path = os.path.join("data_to_connect")  
+    file_path = os.path.join(pop_path, name_file)
+    HtmlFile = open(file_path, 'r', encoding='utf-8')
+    source_code = HtmlFile.read() 
+    print(source_code)
+    components.html(source_code, height = 600)
+
 
 # for debugging purpose
 # 49.0452, 2.1614
