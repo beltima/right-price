@@ -9,6 +9,7 @@ from geopy.geocoders import Nominatim
 geolocator = Nominatim(user_agent="right-price")
 from modules.tool_function import *
 import xgboost as xgb
+import sklearn
 from pickle import load
 
 # Load the model
