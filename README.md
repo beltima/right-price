@@ -1,5 +1,12 @@
 # right-price
 
+Co-Author: 
+- [@ugomuhieddine17] (https://github.com/ugomuhieddine17)
+- [@Nicolo-Giacopelli] (https://github.com/Nicolo-Giacopelli)
+- [@donaldwk10] (https://github.com/donaldwk10)
+- [@jyj1233] (https://github.com/jyj1233)
+- [@beltima] (https://www.github.com/beltima)
+
 # Useful features 
 - coddep = department code
 - l_codinsee = list des codes insee
