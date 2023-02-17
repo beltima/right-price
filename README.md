@@ -1,4 +1,5 @@
 # right-price
+This project was developed with the aim of assisting in making optimal business decisions, particularly in the context of the complex and dynamic housing market in IDF. 
 
 Co-Author: 
 - [@ugomuhieddine17] (https://github.com/ugomuhieddine17)
