@@ -1,5 +1,5 @@
 # right-price
-This project was developed with the aim of assisting in making optimal business decisions, particularly in the context of the complex and dynamic housing market in IDF. 
+This project was developed with the aim of assisting in making optimal business decisions, particularly in the context of the complex and dynamic housing market in IDF. For a quick overview from the dashboard: https://beltima-right-price-streamlit-dashboard-6ce5ov.streamlit.app/
 
 Co-Author: 
 - [@ugomuhieddine17] (https://github.com/ugomuhieddine17)
